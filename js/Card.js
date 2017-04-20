@@ -11,7 +11,7 @@ function Card(id, name, columnId) {
     var $card = $('<li>').addClass('card');
     var $cardDescription = $('<p>').addClass('card-description').text(self.name).attr('data', self.id);
     var $cardEdit = $('<button>').addClass('btn btn-primary card-edit');
-    var $cardDelete = $('<button>').addClass('btn-delete btn btn-warning').text('x');
+    var $cardDelete = $('<button>').addClass('btn btn-delete btn-warning').text('x');
     var $cardOk = $('<span aria-hidden="true">').addClass('glyphicon glyphicon-ok');
 
     $cardDelete.click(function(){
